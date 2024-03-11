@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600;700&family=PT+Sans&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+}
+#logo img{
+    position: absolute;
+    max-width: 300px;
+    z-index: +1;
+    margin-top: 25px;
+    /* transform: translateX(-50%) */
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 212, 151);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.form-box{
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgb(255, 255, 255);
+    padding: 50px 60px 70px;
+    text-align: center;
+}
+
+.form-box h1{
+    font-size: 30px;
+    margin-bottom: 50px;
+    color: #3c00a0;
+    position: relative;
+}
+
+.form-box h1::after{
+    content: '';
+    width: 120px;
+    height: 4px;
+    border-radius: 3px;
+    background: #3c00a0;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.input-field{
+    border: 1px solid rgb(170, 170, 170);
+    background-color: #dfdddd;
+    margin: 15px 0px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.2s;
+    overflow: hidden;
+}
+
+.input-field i {
+    margin-left: 10px;
+}
+
+input{
+    width: 100%;
+    background: transparent;
+    border: 0px;
+    padding: 5px 10px;
+}
+
+i{
+    margin-left: 20px;
+    color: rgb(37, 37, 37);
+}
+
+.input-group p{
+    font-size: small;
+    text-align: center;
+    color: rgb(37, 37, 37);
+    text-decoration: none;
+}
+
+.input-group p a{
+    text-decoration: none;
+    color: blue;
+}
+
+.btn-field{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-field button{
+    padding: 5px 15px;
+    color: white;
+    background-color: #3c00a0;
+    border: 1px solid whitesmoke;
+    border-radius: 30px;
+
+
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.btn-field button.disable{
+    background: #eaeaea;
+    color: #555;
+}
