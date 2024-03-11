@@ -1,0 +1,169 @@
+
+
+*{
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+/* Top Bar */
+.top-bar{
+    width: 100%;
+    height: 50px;
+    background-color: #191C1F;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.auction-friday{
+    display: flex;
+    gap: 5px;
+}
+.auction{
+    color: #191C1F;
+    background-color: yellow;
+    padding: 5px;
+    transform: rotate(-5deg);
+}
+.bid-now-btn button{
+    background: transparent;
+    border: none;
+    color: #191C1F;
+}
+.bid-now-btn i{
+    color: #191C1F
+}
+.bid-now-btn{
+    border: 1px solid yellow;
+    border-radius: 3px;
+    background-color: yellow;
+    color: #191C1F;
+    padding: 5px;
+}
+
+
+
+/* footer */
+.footer-top{
+    background-color: #012269;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+
+}
+
+.footer-text{
+    width: 50%;
+
+}
+.email-input{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    background-color: white;
+}
+
+.head-foot{
+    margin: 15px;
+    margin-top: 0px;
+}
+
+.email-input> input{
+    border: none;
+    padding: 10px 20px;
+}
+.sub-btn > button{
+    border: none;
+    background: transparent;
+    color: white;
+}
+.sub-btn{
+    border: 1px solid #FA8232;
+    border-radius: 3px;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #FA8232;
+    color: white;
+    
+}
+
+
+.footer-body{
+    background-color: #191C1F;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.footer-body-container{
+    max-width: 70vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+  }
+
+
+.footer-item{
+    font-size: 1em;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px 20px;
+    flex-wrap:wrap;
+    margin: 20px;
+    margin-top: 60px;
+}
+.grid-one{
+    display: flex;
+    width: 250px;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 0;
+
+}
+
+.footer-item a{
+    text-decoration: none;
+}
+
+#logo2{
+    width: 180px;
+}
+
+.app-icon{
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: grey;
+    width: 110px;
+    padding: 5px 7px;
+    gap: 5px;
+}
+
+.lining{
+    border: 0.5px solid grey;
+    width: 100%;
+    height: 0.2px;
+    background-color: grey;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #191C1F;
+}
+.footer-bottom p{
+    margin: 20px;
+}
