@@ -1,0 +1,537 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    max-width: 100%;
+    margin: auto;
+    height: 7vh;
+    display: flex;
+    background-color: #012269;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #676565;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header_cont2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 0px 148px 0px 0px;
+
+}
+
+.social_media_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    color: white;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    font-style: normal;
+}
+
+.header_cont1 .welcome {
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    color: white;
+    padding: 0px 0px 0px 160px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    font-style: normal;
+}
+
+.social_media_links img {
+    height: 20px;
+    width: 20px;
+}
+
+.seperation {
+    border-right: 1px solid #a78a8a;
+    width: 0px;
+    height: 30px;
+    padding: 0px 0px 0px 20px;
+}
+
+.language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lang_btn {
+    height: 60px;
+    width: 48px;
+    border: 2px solid gray;
+    background-color: transparent;
+    color: white;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 500;
+    border: none;
+}
+
+.header_searchbar {
+    max-width: 100%;
+    margin: auto;
+    height: 80px;
+    background-color: #012269;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_searchbar .logo img {
+    width: 300px;
+    padding: 0px 0px 0px 0px;
+    position: relative;
+    right: 50%;
+    transform: rotate(1deg);
+}
+
+input {
+    height: 35px;
+    width: 466px;
+    border: none;
+    border-radius: 4px;
+}
+
+::placeholder {
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 0px 10px;
+}
+
+.header_searchbar .users_admin_cart img {
+    width: 30px;
+    position: relative;
+    left: 317%;
+}
+
+.users_admin_cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.informations {
+    display: flex;
+    font-size: 14px;
+    position: sticky;
+    top: 50px;
+
+}
+
+.info_bar {
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info_bar_items{
+    display: flex;
+    justify-content: start;
+}
+
+
+.bar_links {
+    display: flex;
+    position: relative;
+    left: 15%;
+}
+
+.bar_link,
+.drop_down li {
+    list-style: none;
+    height: 100%;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #5F6C72;
+}
+
+.drop_down {
+    position: absolute;
+    padding: 0.5rem 0;
+    margin: 1.75rem -1rem;
+    background-color: rgb(211 199 199);
+    color: black;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    font-size: 12px;
+    display: none;
+    width: 20vw;
+    border-radius: 2px;
+}
+
+.bar_link a:hover {
+    color: #012269;
+}
+
+.catogory:hover .drop_down {
+    display: block;
+    transition: all 0.3s ease-in-out
+}
+
+.catogory {
+    background-color: #aca29c3b;
+}
+
+.ph_number {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 45%;
+    width: 10%;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    list-style: none;
+height: 100%;
+padding: 0.5rem 1rem;
+font-weight: 600;
+cursor: pointer;
+font-size: 16px;
+color: #5F6C72;
+}
+
+
+.deals {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 70%;
+    margin: auto;
+    padding: 10px 0px 0px 0px;
+}
+
+.dealings {
+    display: flex;
+}
+
+.dealings span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    /* position: relative;
+    left: 30px;
+    top: 4px; */
+}
+
+.dealings h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5F6C72;
+}
+
+.span_colr {
+    background-color: #F3DE6D;
+}
+
+.brows {
+    display: flex;
+}
+
+.brows p {
+    color: #2DA5F3;
+}
+
+.brows span img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10%;
+    right: -20px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 90%;
+    margin: auto;
+    /* height: 70vh; */
+    padding: 40px 0px 0px 0px;
+    gap: 33px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 10px solid white;
+}
+
+.item {
+        width: 20%;
+        /* height: 100px; */
+        border: 2px solid #918f8f38;
+        overflow: hidden;
+        padding-bottom: 10px;
+}
+.item:hover{
+    cursor: pointer;
+}
+
+.item img {
+    height: 170px;
+    width: 170px;
+    margin: -20px 0px 0px 49px;
+
+}
+
+.item .prise,
+.prise {
+    background-color: #F3DE6D;
+    width: 100px;
+    border-radius: 5px;
+    padding: 0px 0px 0px 10px;
+    margin: 6px 0px 0px 10px;
+    cursor: pointer;
+}
+
+.item p {
+    margin: 0px 0px 0px 10px;
+}
+
+.book img {
+    height: 150px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px 0px 0px 60px;
+}
+.elect img{
+    height: 150px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px 0px 0px 60px;
+}
+
+
+* {
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* From Shashi  */
+
+/* Top Bar */
+.top-bar {
+    width: 100%;
+    height: 50px;
+    background-color: #191C1F;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.auction-friday {
+    display: flex;
+    gap: 5px;
+}
+
+.auction {
+    color: #191C1F;
+    background-color: yellow;
+    padding: 5px;
+    transform: rotate(-5deg);
+}
+
+.bid-now-btn button {
+    background: transparent;
+    border: none;
+    color: #191C1F;
+}
+
+.bid-now-btn i {
+    color: #191C1F
+}
+
+.bid-now-btn {
+    border: 1px solid yellow;
+    border-radius: 3px;
+    background-color: yellow;
+    color: #191C1F;
+    padding: 5px;
+}
+
+
+
+/* footer */
+.footer {
+    position: relative;
+    top: 50%;
+    color: white;
+}
+
+.footer-top {
+    background-color: #012269;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+
+}
+
+.footer-text {
+    width: 50%;
+
+}
+
+.email-input {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    background-color: white;
+}
+
+.head-foot {
+    margin: 15px;
+    margin-top: 0px;
+}
+
+.email-input>input {
+    border: none;
+    padding: 10px 20px;
+}
+
+.sub-btn>button {
+    border: none;
+    background: transparent;
+    color: white;
+}
+.sub-btn button:hover{
+    cursor: pointer
+}
+
+.sub-btn {
+    border: 1px solid #FA8232;
+    border-radius: 3px;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #FA8232;
+    color: white;
+    width: 150px;
+}
+.sub-btn:hover{
+    cursor: pointer;
+    color: yellow;
+}
+
+
+.footer-body {
+    background-color: #191C1F;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+.footer-body-container {
+    max-width: 70vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+.footer-item a {
+    color: white;
+}
+
+.footer-item {
+    font-size: 1em;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px 20px;
+    flex-wrap: wrap;
+    margin: 20px;
+    margin-top: 60px;
+}
+
+.grid-one {
+    display: flex;
+    width: 250px;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 0;
+
+}
+
+.footer-item a {
+    text-decoration: none;
+}
+
+#logo2 {
+    width: 180px;
+}
+
+.app-icon {
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: grey;
+    width: 120px;
+    padding: 5px 7px;
+    gap: 5px;
+}
+
+.lining {
+    border: 0.5px solid grey;
+    width: 100%;
+    height: 0.2px;
+    background-color: grey;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #191C1F;
+}
+
+.footer-bottom p {
+    margin: 20px;
+}
